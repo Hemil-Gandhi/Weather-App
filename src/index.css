@@ -81,3 +81,15 @@ h4 {
 .refresh-button:hover {
   background-color: #343a40;
 }
+@media screen and (max-width: 768px) {
+  main {
+    width: 90%; /* Make the card take up most of the screen width on mobile */
+    padding: 15px;
+  }
+
+  .refresh-button {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+  }
+}
